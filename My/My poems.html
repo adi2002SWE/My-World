@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Poems</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+	<style>
+		body,html
+	    {
+		    height: 100%;
+		    width: 100%;
+		    margin: 0;
+		    background-image:url("https://images.all-free-download.com/images/graphiclarge/nostalgic_paper_picture_series_17_169279.jpg");
+		   background-size: 100%;
+	    }
+		h2
+		{  
+			font-size:80px;
+			font-weight: bold;
+			color:blue;
+			margin-top:100px;
+			text-align: center;
+			border-top:8px solid gray;
+			border-bottom:8px solid gray;
+			margin-left: 30%;
+			margin-right: 30%;
+		}
+		.header
+	  	{
+	  		background-color:silver;
+	        width: 100vw;
+	        height: 60px;
+	        border-bottom:5px  solid black;
+	        position: fixed;
+	        top: 0;
+	        left: 0;
+	  	}
+	  	.nav-content
+	    {
+	        display: flex;
+	        align-items: center;
+	        margin: 0 auto;
+	        margin-top: 10px;
+	    }
+	  	.nav-search 
+	    {
+	        height: 35px;
+	        width: 270px;
+	        margin-left:55%;
+	        border: none;
+	        border-radius: 4px;
+	        background-color: #eef3f8;
+	        text-indent: 12px;
+	    }
+	  	.navigation 
+	    {
+	        margin-left: 2%;
+	        display: flex;
+	        align-items: center;
+	    }
+	    .nav-icon 
+	    {
+	        text-decoration: none;
+	        color: #666;
+	        display: flex;
+	        flex-direction: column;
+	        align-items: center;
+	        margin-left: 5px;
+	        margin-right: 30px;
+	        font-size: 12px;
+	        font-weight: 300;
+	    }
+		.स्वागतम्1
+		{
+			font-size: 27px;
+			font-family:cursive;
+			color:white;
+		    background-size:100%;
+		    margin-top:20px;
+		    margin-right:20%;
+		    margin-left: 20%;
+		    border-radius:10%;
+		    border:10px solid green;
+			background-image: url(https://cdn.pixabay.com/photo/2017/02/08/12/46/moon-2048727_960_720.jpg);
+		}
+		.P00
+		{
+			font-size:45px;
+			color:darkblue;
+			text-align:center;
+			background-color:pink;
+			border-radius:15%;
+			border:1px solid #00000058;
+			margin-left:30%;
+			margin-top:1%;
+			margin-right:30%;
+		}
+		.स्वागतम्2
+		{
+			font-size: 25px;
+			margin-top: 2%;
+			font-family:sans-serif;
+			color:green;
+		    background-size:100%;
+		    margin-right:15%;
+		    margin-left: 15%;
+		    border-radius:10%;
+		    border:10px solid black;
+			background-image: url(https://images.unsplash.com/photo-1585222515068-7201a72c4181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80);
+		}
+		.स्वागतम्3
+		{
+			font-size: 25px;
+			margin-top: 2%;
+			font-style:italic;
+			color:black;
+			text-align:center;
+		    background-size:100%;
+		    margin-right:30%;
+		    margin-left: 30%;
+		    border-radius:10%;
+		    border:10px solid #0696c2;
+			background-image: url(https://images.unsplash.com/photo-1495345679747-53991aedf9c2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bG92ZSUyMGluJTIwZHJlYW1zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+		}
+		.P11
+		{
+			font-size:40px;
+			color:gold;
+			text-align:center;
+			background-color:rgb(85, 1, 85);
+			border-radius:15%;
+			border:1px solid #00000058;
+			margin-left:20%;
+			margin-top:1%;
+			margin-right:20%;
+		}
+		.Mohabbat
+		{
+			margin-top: 2%;
+			margin-bottom: 1%;
+		}
+		.स्वागतम्4
+		{
+			font-size: 25px;
+			margin-top: 2%;
+			font-style:oblique;
+			color:green;
+			text-align:center;
+		    background-size:100%;
+		    margin-right:30%;
+		    margin-left: 30%;
+		    border-radius:10%;
+		    border:10px solid hsl(278, 98%, 50%);
+			background-image: url(https://images.unsplash.com/photo-1579591040245-1b25289ff4c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxvdmUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+		}
+		.connect
+		{
+			text-align:center;
+			font-size:40px;
+			margin-top:3%;
+		    font-weight:bold;
+		    color:blue;
+		} 
+		.clickme
+		{
+			width:7%;
+			border-radius: 100%;
+			border:3px solid green;
+		}
+		.P22
+		{
+			font-size:40px;
+			color:rgb(128, 69, 69);
+			text-align:center;
+			background-color:hsl(199, 95%, 64%);
+			border-radius:15%;
+			border:1px solid #00000058;
+			margin-left:20%;
+			margin-top:1%;
+			margin-right:20%;
+		}
+		.base
+		{
+			background-color: black;
+			text-align:center;
+			color: white;
+			margin-top:2%;
+		}
+	</style>
+</head>
+<body">
+
+	<header class="header">
+  		<div class="nav-content">
+		  		<input class="nav-search" type="text" placeholder="Search" />
+		        <nav class="navigation">
+		            <a class="nav-icon" href="https://cxg3mggtcvjl0ele7fcpgq-on.drv.tw/Websites/My%20Websites/My%20Poetry%20web/Myworld.html" target="_blank">
+		            	<span class="material-icons">home</span><b>Home</b>
+		            </a>
+		           
+		            <a class="nav-icon" href="file:///C:/Users/Aditya%20Verma/OneDrive/Desktop/HTML/Games%20&%20websites/My/My%20poems.html" target="_blank">
+		               	<span class="material-icons">library_books</span><b>My Poem</b>
+		           	</a>
+		           
+		            <a class="nav-icon" href="https://frw3jubvlja3djzivqnsfw-on.drv.tw/Html%20websites/MyContact.html" target="_blank">
+		            	<span class="material-icons">contact_support</span><b>contact support</b>
+		            </a>
+
+		        </nav>
+        </div>
+  	</header>
+
+	<h2>My Poetry World</h2>
+	
+	<div class="स्वागतम्1">
+		<div class="P00"><b>Night</b></div>
+
+ <pre>
+ 	Night,Night,Night,Night
+ 	There are stars bright.
+ 	In the sky moon found,
+ 	Looking from the ground.
+		
+			Moon is so thin,
+			I want to go in.
+			I’m looking left & right
+			But only there’s dark night.
+		
+ 	Suddenly some dew drops fall,
+ 	I became over the moon at all.
+ 	Now I’m going to rest,
+ 	Night is extremely best. 
+</pre>
+
+	</div>
+	<div class="स्वागतम्2">
+		<div class="P00"><b>Covid-19</b></div>
+		<b>
+	<pre>
+	ये दुनिया की दास्तान है कैसी,<br>		
+	जहा मानव संस्कृति भी है फँसी ।<br>
+	कोरोने का कहर है छाया,<br>
+	इससे कोई देश नहीं है बच पाया |।<br>
+	
+			करोड़ों लोग जा चुके हैं मारे,<br>
+			ऐसा रहा तो चले जाएँगे सारे ।<br>
+			पीएम मोदी की लो बात मान,<br>
+			घर में रहो सुरक्षित, मात्र एक समाधान ।।<br>
+	
+	बार-बार दस बार करो साफ हाथ,<br>
+	देश को बचाने में पीएम का दो साथ ।<br>
+	इस वैश्विक महामारी, कोविड-नान्टीन<br>
+	से बंद हो गये हैं सारे मॉल एवं कैन्टीन ।<br>
+	घर पर हर ज़रूरी सामान की होगी व्यवस्था,<br>
+	सरकार ने ऐसा इंतजाम किया है सस्ता ||<br>
+	
+			बच्चे-बूढ़े सबके मन में हो विश्वास पक्का,<br>
+			एक दूसरे से दूरी बना लो यही है अच्छा ।<br>
+			ऐसे में टूटेगी कोरोने की चेन,<br>
+			भाग जाएगा वह होकर बेचैन ।।
+	</pre>
+	    </b>
+	</div>
+	<div class="स्वागतम्3">
+		<div class="P11"><b>Kitni Mohabbat hai</b></div>
+			<div class="Mohabbat">
+				<b>
+					काली अँधेरी रात है<br>
+					कोहरे की ये सौगात है,<br>
+			        अकेला मैं चल रहा<br>
+					ना आगे,ना पीछे,ना कोई साथ हैं।<br>
+					मौसम भी हो चली सख्त है,<br>
+					ठंड भी जबरदस्त है।<br>
+					दूर दिख रही है एक चमक,<br>
+					मैं जानता हूँ है वो उसके चेहरे की दमक<br>
+			 		याद आ रहा है वो दिन<br>
+					याद आ रही है वो बाते<br>
+					जो मिलकर बिताए थे कई रातें<br>
+					यूँ साथ-साथ उसका चलना<br>
+					दिल की धड़कन का बढ़ना<br>
+					अचानक से ठहर गया सब<br>
+					लुप्त सी होने लगी वो जब<br>
+					लुप्त सी हुई तो,होती ही चली गई<br>
+					क्योंकि मेरी आँख नींद से खुल गई<br>
+					सच में कितना खूबसूरत था ये सपना<br>
+					हो न हो ये लगता है अपना......||
+				</b>	
+			</div>	
+	</div>
+	<div class="स्वागतम्4">
+		<div class="P22"><b>Teri yaad mein</b></div>
+		    <div class="Mohabbat">
+				जब यादों की ठंड लगती है<br>
+				तुम्हें ओढ़कर सो जाता हूँ<br>
+				अलबेलों सपनों में खो जाता हूँ ।<br>
+				अब बस तेरी यादें ही हैं मेरे पास<br>
+				महसूस करता हूँ, जैसे हो तेरा साथ |<br>
+				मन करता है की जी भर रोऊँ<br>
+				अब तो आँखों ने भी साथ छोड़ दिया है ।<br>
+				मैं भी आना चाहता हूँ तेरे पास<br>
+				लेना चाहता हूँ जीवन से संन्यास,<br>
+				ज़रा करना तू खुदा से सिफ़ारिश<br>
+				नहीं सुनता वो मेरी गुज़ारिश<br>
+				बस है ये आखिरी ख्वाहिश......<br>
+				उस अंत समय में भी मन में<br>
+			    बस तू हो, बस तू हो, बस तू ही हो ।।
+		    </div>
+	</div>
+
+	<div class="connect">Positively leave your feedback....
+		<a href="https://frw3jubvlja3djzivqnsfw-on.drv.tw/Html%20websites/MyContact.html" target="_blank">
+			<img class="clickme" src="https://thumbs.dreamstime.com/b/click-me-button-illustration-label-finger-cursor-116380790.jpg" >
+		</a>	
+	</div>
+
+	<footer class="base">
+		Aditya Verma<br>
+		<a href="https://www.linkedin.com/in/aditya-verma-3741291b7" target="_blank"><img src="https://image.flaticon.com/icons/png/512/1384/1384072.png" width="30px" height="30px"></a>
+        
+         <a  href="https://www.instagram.com/verma_complicated_boy" target="_blank"><img src="https://image.flaticon.com/icons/png/512/1409/1409946.png" width="30px" height="30px" ></a>
+
+         <a href="https://cxg3mggtcvjl0ele7fcpgq-on.drv.tw/Websites/MyContact.html" width="30px" height="30px" ></a>
+		<br>
+		© Copyright 2020-21-MyPoems.html
+	</footer>
+
+</body>
+</html>
